@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "Orpi.Christo.Resources.CommonApi";
+
+package christo.common.api;
+
+// The greeting service definition.
+service CommonApi {
+  // Sends a greeting
+  rpc GetSampleData (GetSampleDataRequest) returns (GetSampleDataReply);
+}
+
+// The request message containing the user's name.
+message GetSampleDataRequest {
+
+}
+
+// The response message containing the greetings.
+message GetSampleDataReply {
+  string data = 1;
+}

@@ -7,11 +7,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\greet.proto" GrpcServices="Server"/>
+        <PackageReference Include="Grpc.AspNetCore" />
+        <PackageReference Include="Grpc.AspNetCore.Server.Reflection" />
+        <PackageReference Include="Serilog.AspNetCore" />
+        <PackageReference Include="Serilog.Sinks.Seq" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Grpc.AspNetCore" Version="2.64.0"/>
+      <ProjectReference Include="..\Orpi.Christo.Resources.Core\Orpi.Christo.Resources.Core.csproj" />
+      <ProjectReference Include="..\Orpi.Christo.Resources.Infrastructure\Orpi.Christo.Resources.Infrastructure.csproj" />
+      <ProjectReference Include="..\Orpi.Christo.Resources.Proto\Orpi.Christo.Resources.Proto.csproj" />
     </ItemGroup>
 
 </Project>

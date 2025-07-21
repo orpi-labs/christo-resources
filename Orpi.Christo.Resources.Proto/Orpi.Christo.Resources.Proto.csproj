@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" />
+        <Protobuf Include="common\greet.proto" GrpcServices="Server"/>
+        <Protobuf Include="common\common.proto" GrpcServices="Server"/>
+    </ItemGroup>
+
+
+</Project>

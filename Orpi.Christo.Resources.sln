@@ -2,6 +2,18 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orpi.Christo.Resources.Api", "Orpi.Christo.Resources.Api\Orpi.Christo.Resources.Api.csproj", "{2842569A-C15A-4DD6-82DC-BEF1AA820EB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orpi.Christo.Resources.Core", "Orpi.Christo.Resources.Core\Orpi.Christo.Resources.Core.csproj", "{318E6E65-764E-4EC5-9D09-021CC3F73AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orpi.Christo.Resources.Infrastructure", "Orpi.Christo.Resources.Infrastructure\Orpi.Christo.Resources.Infrastructure.csproj", "{0E409565-8EBC-4B8F-A7C8-411561D6833B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orpi.Christo.Resources.Proto", "Orpi.Christo.Resources.Proto\Orpi.Christo.Resources.Proto.csproj", "{B244F686-C35A-4348-B688-F7CB3470E6BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{21D9E7C6-C79B-43E5-9525-8339D8FEC37A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +24,17 @@ Global
 		{2842569A-C15A-4DD6-82DC-BEF1AA820EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2842569A-C15A-4DD6-82DC-BEF1AA820EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2842569A-C15A-4DD6-82DC-BEF1AA820EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318E6E65-764E-4EC5-9D09-021CC3F73AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318E6E65-764E-4EC5-9D09-021CC3F73AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318E6E65-764E-4EC5-9D09-021CC3F73AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318E6E65-764E-4EC5-9D09-021CC3F73AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E409565-8EBC-4B8F-A7C8-411561D6833B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E409565-8EBC-4B8F-A7C8-411561D6833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E409565-8EBC-4B8F-A7C8-411561D6833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E409565-8EBC-4B8F-A7C8-411561D6833B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B244F686-C35A-4348-B688-F7CB3470E6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B244F686-C35A-4348-B688-F7CB3470E6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B244F686-C35A-4348-B688-F7CB3470E6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B244F686-C35A-4348-B688-F7CB3470E6BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
